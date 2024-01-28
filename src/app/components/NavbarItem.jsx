@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import React from 'react'
+import About from '../about/About'
 
 export default function NavbarItem({title, param}) {
     const searchParams = useSearchParams()
@@ -13,6 +14,7 @@ export default function NavbarItem({title, param}) {
          ${
             genre && genre === param && " underline underline-offset-8  decoration-4 decoration-amber-500 rounded-lg"
         }`} href={`/?genre=${param}`}>{title}</Link>
+        {/* <About searchParams={genre}/> */}
     </div>
   )
 }
