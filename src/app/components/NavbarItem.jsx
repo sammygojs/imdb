@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import React from 'react'
-import About from '../about/About'
+import About from '../about/page'
 
 export default function NavbarItem({title, param}) {
     const searchParams = useSearchParams()

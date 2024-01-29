@@ -1,7 +1,7 @@
 import React from 'react'
 // const API_KEY = process.env.API_KEY
 
-export default async function About() {
+export default function About() {
   // const genre = 
   // searchParams.genre || 
   // 'fetchTrending';
